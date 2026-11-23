@@ -1,0 +1,173 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Laptop TV</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Main application -->
+
+    <div id="app">
+
+        <!-- Header -->
+
+        <header class="top-bar">
+
+            <div class="logo">
+                LAPTOP<span>TV</span>
+            </div>
+
+            <div class="system-info">
+                <span id="date">Loading date...</span>
+                <span id="clock">00:00</span>
+            </div>
+
+        </header>
+
+
+        <!-- Home screen -->
+
+        <main id="home-screen">
+
+            <section class="welcome">
+
+                <p class="eyebrow">YOUR PERSONAL ENTERTAINMENT SYSTEM</p>
+
+                <h1>Welcome back.</h1>
+
+                <p class="subtitle">
+                    Everything you want to watch, in one place.
+                </p>
+
+            </section>
+
+
+            <!-- Applications -->
+
+            <section class="apps-section">
+
+                <div class="section-heading">
+                    <h2>Applications</h2>
+                    <span id="app-count">04 APPS</span>
+                </div>
+
+
+                <div class="app-grid">
+
+                    <button class="app-card" data-url="https://www.youtube.com">
+
+                        <span class="app-icon youtube">▶</span>
+
+                        <span class="app-name">YouTube</span>
+
+                    </button>
+
+
+                    <button class="app-card" data-url="https://www.netflix.com">
+
+                        <span class="app-icon netflix">N</span>
+
+                        <span class="app-name">Netflix</span>
+
+                    </button>
+
+
+                    <button class="app-card" data-url="https://www.crunchyroll.com">
+
+                        <span class="app-icon crunchyroll">◉</span>
+
+                        <span class="app-name">Crunchyroll</span>
+
+                    </button>
+
+
+                    <button class="app-card" data-url="https://open.spotify.com">
+
+                        <span class="app-icon spotify">♫</span>
+
+                        <span class="app-name">Spotify</span>
+
+                    </button>
+
+                </div>
+
+            </section>
+
+
+            <!-- Bottom information -->
+
+            <section class="system-panel">
+
+                <div>
+                    <p class="eyebrow">SYSTEM STATUS</p>
+                    <h2>Ready when you are.</h2>
+                </div>
+
+                <button id="fullscreen-btn">
+                    ⛶ Fullscreen
+                </button>
+
+            </section>
+
+        </main>
+
+
+        <!-- Application viewer -->
+
+        <section id="viewer-screen" class="hidden">
+
+            <div class="viewer-header">
+
+                <button id="home-btn">
+                    ← Home
+                </button>
+
+                <h2 id="current-app">Application</h2>
+
+            </div>
+
+            <div id="viewer-content">
+
+                <div id="viewer-message">
+
+                    <h2>Application launcher</h2>
+
+                    <p>
+                        Your selected application will open here when supported.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Footer -->
+
+        <footer class="footer">
+
+            <span>LAPTOP TV</span>
+
+            <span>PERSONAL ENTERTAINMENT SYSTEM</span>
+
+            <span>VERSION 0.1</span>
+
+        </footer>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
